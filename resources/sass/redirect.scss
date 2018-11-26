@@ -1,0 +1,31 @@
+.redirect-button {
+	cursor: pointer;
+	width:90%;
+    text-align: center;
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: normal;
+    font-weight: 800;
+    padding-right: 8px;
+    padding-left: 8px;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    background: rgb(166, 29, 85);
+    border-color: transparent;
+}
+.redirect-blocks {
+	display:grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto auto auto;
+}
+#redirect {
+	width:100%;
+}
+.inline {
+    display: inline-flex;
+}

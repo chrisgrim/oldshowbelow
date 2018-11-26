@@ -1,0 +1,42 @@
+
+// Body
+$body-bg: white;
+
+// Typography
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+p {
+	margin: 0px !important;
+    word-wrap: break-word !important;
+    font-size: 16px !important;
+    line-height: 28px !important;
+    letter-spacing: normal !important;
+    font-family: 'Raleway', sans-serif;
+    text-transform: undefined !important;
+    color: rgb(72, 72, 72) !important;
+    padding-top: undefined !important;
+    padding-bottom: undefined !important;
+    font-weight: normal !important;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600 !important;
+}
+.vue-star-rating{
+    display: inline-block !important;
+}
+

@@ -1,0 +1,91 @@
+.search-bar{
+	width:300px;
+}
+@media only screen and (max-width: 969px) {
+	.search-bar{
+	width:100%;
+}
+}
+.nav-login-register{
+	display: flex;
+	float:right;
+	padding-right: 13px;
+}
+.login-nav a {
+	padding: 0px 20px 0px 10px;
+	color: #414d5b;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.login-nav {
+	padding-top:8px;
+}
+
+@media only screen and (max-width: 969px) {
+.nav-bar-logo {
+    display: none;
+    }
+}
+@media only screen and (min-width: 970px) {
+.nav-bar-dropdown {
+    display:none;
+    }
+}
+/*hide the inputs/checkmarks*/
+#check01 {
+  display: none;
+}
+
+/*hide the submenu*/
+ul.submenu {
+  max-height: 0;
+  overflow: hidden;
+}
+
+/*position the label*/
+label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+/*show the submenu when checked*/
+input:checked~ul.submenu {
+    position: absolute;
+    background-color: white;
+    width: 98vw;
+    min-height: 70vw;
+    margin-left: -40px;
+    padding-top: 20px;
+    z-index: 1;
+}
+.down-arrow{
+    color: #767676 !important;
+    display: inline-block !important;
+    font-size: 11px !important;
+    margin-left: 8px !important;
+}
+.drop-menus{
+}
+.menu-item {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    color: rgb(72, 72, 72) !important;
+    padding:12px 12px 12px 12px !important;
+    font-weight: normal !important;
+    display: block !important;
+    position: relative !important;
+    text-decoration: none !important;
+}
+.menu-item a {
+    color: inherit;
+    text-decoration: none !important;
+}
+.drop-down-image {
+    margin-right: 10px;
+    float:right;
+}

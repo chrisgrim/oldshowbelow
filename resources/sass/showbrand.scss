@@ -1,0 +1,337 @@
+/*main content section*/
+#show-blade{
+    display:grid;
+    grid-template-rows: auto;
+    padding:50px 0px 50px 0px;
+    grid-template-columns: 2fr .8fr;
+    grid-template-areas: 
+    "show-center show-side"
+}
+show-center{
+    grid-area: show-center;
+}
+show-side{
+    grid-area: show-side;
+}
+@media only screen and (max-width: 969px){
+    #show-blade{
+        display:grid;
+        grid-template-rows: auto;
+        padding:50px 0px 50px 0px;
+        grid-template-columns: 2fr auto;
+        grid-template-areas: 
+        "show-center show-side"
+}
+    show-side{
+        grid-area: show-side;
+        position:fixed;
+        bottom:0;
+        left:0;
+}
+}
+
+#show-content-intro{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 70% 30%;
+    grid-template-areas: 
+    "show-intro-side show-intro-center "
+}
+show-intro-center{
+    grid-area: show-intro-center;
+}
+show-intro-side{
+    grid-area: show-intro-side;
+    padding-left: 8px;
+}
+@media only screen and (max-width: 969px){
+    #show-content-intro{
+        display:grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "show-intro-center" 
+        "show-intro-side"
+}
+show-intro-center{
+    grid-area: show-intro-center;
+    padding-bottom: 20px;
+}
+show-intro-side{
+    grid-area: show-intro-side;
+    padding-left: 0px;
+}
+}
+.show-review-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+    grid-gap: 20px 20px;
+}
+@media only screen and (max-width: 969px){
+    .show-review-box {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 200px;
+        grid-gap: 20px;
+    }
+}
+
+/*This is the coupon section info*/
+
+.brand-show-title.coupon {
+    font-size:20px;
+    line-height: 24px;
+    padding: 10px 0px 10px 0px;
+}
+.brand-coupon-section {
+    margin-left: 45px;
+    width: 376px;
+    z-index: 3;
+}
+.coupon-box{
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0px;
+    margin-bottom: 30px;
+    border: 1px solid #e4e4e4;
+    background-color: #ffffff;
+}
+.brand-coupon-title {
+    position: relative;
+}
+.show-star-rating {
+    margin-top: -5px
+}
+.coupon-button-section {
+    border-radius: 4px;
+}
+.coupon-submit-button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: normal;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 800;
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 24px;
+    padding-right: 24px;
+    min-width: 77.66563145999496px;
+    box-shadow: none;
+    background: #FF5A5F;
+    border-color: transparent;
+    color: #ffffff;
+}
+.coupon-submit-button a{
+    text-decoration: none !important;
+    color: #ffffff;
+    color: inherit !important;
+}
+.coupon-submit-button.code{
+    width:95%;
+}
+.coupon-submit-button.code:hover{
+    transition: width 1s;
+    width:90%;
+}
+.coupon-button-section.code{
+    background-color: white;
+    box-shadow:0px 0px 0px 1px grey inset;
+
+}
+.stuck {
+    position:fixed;
+    width: 376px;
+    margin-top:-80px;
+}
+.unstuck {
+}
+@media only screen and (max-width: 969px){
+    .unstuck {
+        position:fixed;
+        width: 100%;
+        margin-top:120px;
+        text-align: center;
+}
+    .stuck {
+        position:fixed;
+        width: 100%;
+        margin-top:20px;
+        text-align: center;
+    }
+    .coupon-first-des {
+        display: none;
+    }
+    .coupon-box{
+        height:120px;
+        background: #FF5A5F;
+    }
+    .coupon-submit-button{
+        background: #FFF;
+        color: black;
+    }
+    .coupon-info{
+        display: none;
+    }
+    .button-info {
+        display: none;
+    }
+    .brand-show-title.coupon {
+        color:white;
+        font-size: 14px;
+        padding: 3px 0px 3px 0px;
+    }
+    .brand-coupon-section {
+        width:100%;
+        margin-bottom: 116px;
+        margin-left: 0px;
+    }
+    #logo-scroll {
+        width: 100%;
+    }
+    .coupon-submit-button{
+        float: right;
+    }
+}
+.show-body-content {
+    width:100%;
+    padding-top: 55px;
+}
+.show-brand-content {
+    padding-top:10px;
+}
+.show-brand-image {
+    width:100%;
+    border-radius: 10px;
+}
+.brand-show-title {
+    word-wrap: break-word;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: normal;
+    font-family: 'Raleway', sans-serif;
+    text-transform: undefined;
+    color: #484848;
+    font-weight: 600;
+}
+.brand-show-title h2{
+    word-wrap: break-word;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: normal;
+    font-family: 'Raleway', sans-serif;
+    text-transform: undefined;
+    color: #484848;
+    font-weight: 600;
+}
+.brand-show-title.reviews {
+    padding-bottom: 30px
+}
+.show-intro-info {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 0px 0px 0px;
+}
+.show-intro-elements {
+    word-wrap: break-word !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    letter-spacing: normal !important;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(72, 72, 72) !important;
+    font-weight: 600 !important;
+    display: inline !important;
+    margin: 0px !important;
+}
+.brand-show-cat {
+    word-wrap: break-word;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: normal;
+    font-family: 'Raleway', sans-serif;
+    text-transform: undefined;
+    color: #a02f18;
+    padding-top: undefined;
+    padding-bottom: undefined;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.brand-padding {
+    min-height: 1px !important;
+    position: relative !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+.brand-intro {
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-size: 16px !important;
+    line-height: 28px !important;
+    letter-spacing: normal !important;
+    font-family: 'Raleway', sans-serif;
+    text-transform: undefined !important;
+    color: #484848 !important;
+    padding-top: undefined !important;
+    padding-bottom: undefined !important;
+    font-weight: normal !important;
+}
+.brand-intro-title {
+    margin: 0px;
+    word-wrap: break-word;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: normal;
+    font-family: 'Raleway', sans-serif;
+    text-transform: undefined;
+    color: #484848;
+    font-weight: 600;
+}
+
+.button-info {
+    word-wrap: break-word !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    letter-spacing: normal !important;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(72, 72, 72) !important;
+    margin: 0px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*--------------------This is the review Section*/
+
+
+.show-review-section{
+    padding:50px 0px 50px 0px;
+}
+.show-review-user-img {
+    border-radius: 50px
+}
+.show-review-user-name {
+    font-weight: 600 !important;
+    word-wrap: break-word !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: 'Raleway', sans-serif;
+    display: inline !important;
+    margin: 0px !important;
+}
+.show-review-user-name a{
+    text-decoration: none !important;
+    color: rgb(72, 72, 72) !important;
+}
+.review-heading {
+    display:grid;
+    grid-template-columns: 50px 1fr;
+    padding-bottom: 25px;
+}

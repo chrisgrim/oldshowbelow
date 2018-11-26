@@ -1,0 +1,35 @@
+.profile-sect-top{
+	background-color: #4d59ab;
+	height: 35vh;
+	width: 130%;
+	margin-left: -15%;
+	margin-top: -10%;
+}
+@media only screen and (max-width: 969px) {
+	.profile-sect-top{
+	margin-top: -25%;
+	}
+}
+.profile-sect-content {
+	margin-top: -50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.profile-img {
+	border-radius: 50px;
+}
+.fileinput {
+	display: none !important;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.imgclick {
+	width:100px;
+	height:100px;
+	background-size: contain;
+	border-radius: 50px;
+}

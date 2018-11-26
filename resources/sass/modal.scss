@@ -1,0 +1,151 @@
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.85);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.modal-window:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window>div {
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  color: #333333;
+  border-radius: 5px;
+}
+.modal-window header {
+  font-weight: bold;
+}
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+  color: #333333;
+}
+i {
+  vertical-align: middle;
+}
+.modal-box{
+  border:1px solid black;
+
+}
+.modal-top{
+  background-color: #f2f3f4;
+  padding: 2em 10em 2em 10em;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: .6fr .4fr;
+  border-radius: 5px;
+}
+.modal-bottom{
+  background-color: #3a434e;
+  padding: 2em 6em 2em 6em;
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  color:white;
+  font-size: 20px;
+  border-radius: 0px 0px 3px 3px;
+}
+.modal-coupon-code {
+  height: 54px;
+  border: solid 1px #00bd9b;
+  background-color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.modal-coupon-code h3 {
+  font-family: 'Raleway',sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #414a4d;
+  padding-top: 7px;
+}
+.copy-button {
+  height: 54px;
+  cursor: pointer;
+  border: solid 2px #00bd9b;
+  background-color: #00bd9b;
+  text-align: center;
+  min-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: 'Raleway',sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+.modal-logo {
+  max-width:130px !important;
+}
+@media only screen and (max-width: 700px) {
+.modal-window>div {
+  width: 300px;
+  }
+.modal-top{
+  padding: 3em 2em 2em 2em;
+  background-color: #f2f3f4;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto;
+  border-radius: 5px;
+}
+.modal-top-delete {
+  padding: 3em 2em 2em 2em;
+  background-color: #f2f3f4;
+  border-radius: 5px;
+}
+.modal-bottom{
+  background-color: #3a434e;
+  padding: .3em;
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  color:white;
+  font-size: 20px;
+  border-radius: 0px 0px 3px 3px;
+}
+.modal-coupon-code {
+  margin-bottom: 18px;
+}
+.copy-button {
+  width:100%;
+}
+}

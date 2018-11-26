@@ -1,0 +1,47 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Contact
+@import 'contact';
+
+// Contact
+@import 'profile';
+
+// Redirect
+@import 'redirect';
+
+// Contact
+@import 'modal';
+
+// Amp
+@import 'amp';
+
+// ShowBrand
+@import 'showbrand';
+
+// Testing
+@import 'testing';
+
+// Nav
+@import 'nav';
+
+// Index
+@import 'index';
+
+// Layout
+@import 'layout';
+
+// Register Page
+@import 'registerpage';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}

@@ -1,0 +1,70 @@
+#contact-page{
+	display:grid;
+	margin-top:-82px;
+	grid-template-rows: 200px 1000px;
+	grid-template-columns: 270px auto 270px;
+	grid-template-areas: 
+	"left top right"
+	"left middle right"
+}
+#contact-page.brandedit{
+	grid-template-rows: 200px auto !important;
+}
+top{
+	grid-area: top;
+	background: none;
+	background-image: url(/storage/SiteImages/top-contact-image.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+left{
+	grid-area: left;
+	background-color:none;
+	background-image: url(/storage/SiteImages/left-contact-image.png);
+	background-repeat:no-repeat;
+	background-size: 270px;
+	
+}
+middle{
+	grid-area: middle;
+	background-color: white;
+}
+right{
+	grid-area: right;
+	background-image: url(/storage/SiteImages/right-contact-image.png);
+	background-repeat:no-repeat;
+	background-size: 270px;
+}
+@media only screen and (max-width: 969px) {
+	#contact-page{
+	display:grid;
+	margin-top:-82px;
+	grid-template-rows: 200px 1000px;
+	grid-template-columns: 270px auto auto;
+	grid-template-areas: 
+	"left top right"
+	"middle middle middle"
+	}
+	#contact-page.brandedit{
+	grid-template-rows: 200px auto;
+	}
+	right{
+	grid-area: right;
+     margin-top: -260px;
+    margin-left: -190px;
+	z-index: -10;
+}
+
+}
+
+.contact-container{
+	margin-top:-50px;
+	padding: 20px 20px 20px 20px;
+}
+.contact-title h2{
+	color: #f29a7f;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 4.4rem;
+    margin-bottom: 4rem;
+}

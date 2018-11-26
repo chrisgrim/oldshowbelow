@@ -1,0 +1,43 @@
+#amp-site-container{
+	display:grid;
+	max-width: 37.5rem;
+	margin: 0px auto;
+	grid-template-rows: 80px auto 100px;
+	grid-template-columns: .2fr auto .5fr;
+	grid-template-areas: 
+	"logo search login"
+	"main main main"
+	"footer footer footer"
+}
+nav{
+	grid-area: nav;
+	background:red;
+	border-bottom: 1px solid black;
+}
+main{
+	grid-area: main;
+	background:none;
+}
+footer {
+	grid-area: footer;
+	background: blue;
+}
+
+.header {
+    border: 0.0625rem solid #bbcdd3;
+    position: relative;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.amp-logo {
+	display:block;
+}
+.amp-brand-coupon-section {
+    z-index: 3;
+}
+@media only screen and (max-width: 765px){
+.amp-image {
+	width: 300px !important;
+	height: 200px !important;
+}
+}
