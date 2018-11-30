@@ -9,6 +9,9 @@
 		</div>
 		{{ $events->links() }}
 </div>
+<div>
+	
+</div>
 
 
 
