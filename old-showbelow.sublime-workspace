@@ -1,0 +1,526 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"chgr",
+				"chgrim"
+			],
+			[
+				"Vali",
+				"Validate"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"border-top",
+				"border-top-left-radius"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"bt",
+				"btn-default"
+			],
+			[
+				"grid-te",
+				"grid-template-rows"
+			],
+			[
+				"grid-tem",
+				"grid-template-columns"
+			],
+			[
+				"grid-templ",
+				"grid-template-rows"
+			],
+			[
+				"grid-templa",
+				"grid-template-areas"
+			],
+			[
+				"grid",
+				"grid-area"
+			],
+			[
+				"light",
+				"lightslategray"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"htmlspecialca",
+				"htmlspecialchars"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Http/Controllers/EventsController.php",
+			"settings":
+			{
+				"buffer_size": 4888,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 256.0,
+		"last_filter": "intall",
+		"selected_items":
+		[
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 223.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Chris/code/old-showbelow",
+		"/Users/Chris/code/old-showbelow/app",
+		"/Users/Chris/code/old-showbelow/app/Http",
+		"/Users/Chris/code/old-showbelow/app/Http/Controllers",
+		"/Users/Chris/code/old-showbelow/app/Http/Requests",
+		"/Users/Chris/code/old-showbelow/database",
+		"/Users/Chris/code/old-showbelow/database/factories",
+		"/Users/Chris/code/old-showbelow/database/migrations",
+		"/Users/Chris/code/old-showbelow/resources",
+		"/Users/Chris/code/old-showbelow/resources/views",
+		"/Users/Chris/code/old-showbelow/resources/views/events"
+	],
+	"file_history":
+	[
+		"/Users/Chris/code/showbelow/.env",
+		"/Users/Chris/code/demo/sftp-config.json",
+		"/Users/Chris/code/demo/resources/views/Brands/test.blade.php",
+		"/Users/Chris/code/demo/vendor/psy/psysh/test/fixtures/default/.config/psysh/config.php",
+		"/Users/Chris/code/demo/app/Http/Controllers/BrandsController.php",
+		"/Users/Chris/code/demo/resources/views/Brands/reviews.blade.php",
+		"/Users/Chris/code/demo/resources/assets/js/components/PostReview.vue",
+		"/Users/Chris/code/demo/resources/assets/js/components/review.vue",
+		"/Users/Chris/code/demo/resources/assets/js/components/ReviewForm.vue",
+		"/Users/Chris/code/demo/resources/views/Brands/show.blade.php",
+		"/Users/Chris/code/demo/app/Providers/AuthServiceProvider.php",
+		"/Users/Chris/code/demo/resources/assets/js/app.js",
+		"/Users/Chris/code/demo/app/Http/Controllers/ReviewsController.php",
+		"/Users/Chris/code/demo/database/factories/UserFactory.php",
+		"/Users/Chris/code/demo/resources/views/layouts/master.blade.php",
+		"/Users/Chris/code/demo/app/Http/Controllers/MailContactsController.php",
+		"/Users/Chris/code/demo/resources/views/auth/register.blade.php",
+		"/Users/Chris/code/demo/resources/views/auth/login.blade.php",
+		"/Users/Chris/code/demo/app/Brand.php",
+		"/Users/Chris/code/demo/resources/assets/sass/homepage.scss",
+		"/Users/Chris/code/demo/resources/assets/sass/app.scss",
+		"/Users/Chris/code/demo/resources/views/Brands/index.blade.php",
+		"/Users/Chris/code/demo/resources/assets/js/components/avatarform.vue",
+		"/Users/Chris/code/demo/resources/views/profiles/show.blade.php",
+		"/Users/Chris/code/demo/resources/views/Contact/create.blade.php",
+		"/Users/Chris/code/demo/app/Rules/Recaptcha.php",
+		"/Users/Chris/code/demo/.env",
+		"/Users/Chris/code/demo/config/services.php",
+		"/Users/Chris/code/demo/app/Http/Controllers/ProfilesController.php",
+		"/Users/Chris/code/demo/app/Mail/ContactUs.php",
+		"/Users/Chris/code/demo/resources/views/emails/contact.blade.php",
+		"/Users/Chris/code/demo/config/mail.php",
+		"/Users/Chris/code/demo/database/migrations/2018_07_31_232007_create_mail_contacts_table.php",
+		"/Users/Chris/code/demo/app/MailContact.php",
+		"/Users/Chris/code/demo/app/Http/Controllers/ContactController.php",
+		"/Users/Chris/code/demo/app/Http/Controllers/MailContactController.php",
+		"/Users/Chris/code/demo/app/Http/Requests/ContactFormRequest.php",
+		"/Users/Chris/code/demo/app/User.php",
+		"/Users/Chris/code/demo/database/migrations/2018_07_16_205115_create_reviews_table.php",
+		"/Users/Chris/code/demo/resources/views/Brands/create.blade.php",
+		"/Users/Chris/code/demo/resources/views/layouts/error.blade.php",
+		"/Users/Chris/code/demo/resources/assets/js/components/ImageUpload.vue",
+		"/Users/Chris/code/demo/resources/assets/js/bootstrap.js",
+		"/Users/Chris/code/demo/resources/assets/sass/contact.scss",
+		"/Users/Chris/code/demo/resources/views/auth/default-left.blade.php",
+		"/Users/Chris/code/demo/resources/assets/sass/registerpage.scss",
+		"/Users/Chris/code/demo/resources/views/layouts/nav.blade.php",
+		"/Users/Chris/code/demo/resources/assets/sass/nav.scss",
+		"/Users/Chris/code/demo/resources/assets/sass/layout.scss",
+		"/Users/Chris/code/demo/app/Http/Controllers/Auth/RegisterController.php",
+		"/Users/Chris/code/demo/resources/assets/sass/modal.scss",
+		"/Users/Chris/code/demo/app/Policies/UserPolicy.php",
+		"/Users/Chris/code/demo/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/Chris/code/demo/app/Policies/ReviewPolicy.php",
+		"/Users/Chris/code/demo/app/Review.php",
+		"/Users/Chris/code/demo/app/Policies/BrandPolicy.php",
+		"/Users/Chris/code/demo/resources/assets/js/components/flash.vue",
+		"/Users/Chris/code/demo/app/Http/Kernel.php",
+		"/Users/Chris/code/demo/app/Http/Middleware/IsAdmin.php",
+		"/Users/Chris/code/demo/app/Http/Controllers/Auth/ResetPasswordController.php",
+		"/Users/Chris/code/demo/app/Http/Controllers/Auth/LoginController.php",
+		"/Users/Chris/code/demo/resources/views/Brands/products.blade.php",
+		"/Users/Chris/code/demo/app/Providers/AppServiceProvider.php",
+		"/Users/Chris/code/demo/app/Product.php",
+		"/Users/Chris/code/demo/database/migrations/2018_07_23_221445_create_products_table.php",
+		"/Users/Chris/code/demo/app/Http/Controllers/ProductController.php",
+		"/Users/Chris/code/demo/resources/views/Brands/untitled.php",
+		"/Users/Chris/code/demo/resources/views/layouts/footer.blade.php",
+		"/Users/Chris/code/demo/database/migrations/2018_07_16_203503_create_brands_table.php",
+		"/Users/Chris/code/demo/database/factories/ModelFactory.php",
+		"/Users/Chris/code/chris/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/Chris/code/chris/resources/views/Users/index.blade.php",
+		"/Users/Chris/code/chris/resources/views/Coupons/coupons.blade.php",
+		"/Users/Chris/code/chris/resources/assets/sass/reviewpage.scss",
+		"/Users/Chris/code/chris/resources/views/Coupons/couponsindex.blade.php",
+		"/Users/Chris/code/chris/resources/assets/sass/custom.scss",
+		"/Users/Chris/code/chris/resources/assets/sass/_variables.scss",
+		"/Users/Chris/code/chris/resources/views/layouts/nav.blade.php",
+		"/Users/Chris/code/chris/resources/assets/sass/app.scss",
+		"/Users/Chris/code/chris/resources/views/Coupons/couponscreate.blade.php",
+		"/Users/Chris/code/chris/app/Http/Controllers/ProfilesController.php",
+		"/Users/Chris/code/chris/app/Post.php",
+		"/Users/Chris/code/chris/resources/views/posts/topinfo.blade.php",
+		"/Users/Chris/code/chris/resources/views/dashboard.blade.php",
+		"/Users/Chris/code/chris/app/Http/Controllers/PostsController.php",
+		"/Users/Chris/code/chris/app/Http/Controllers/AdminController.php",
+		"/Users/Chris/code/chris/app/Http/Controllers/CouponsController.php",
+		"/Users/Chris/code/chris/resources/views/reviews/reviewsindex.blade.php",
+		"/Users/Chris/code/chris/resources/views/admin/index.blade.php",
+		"/Users/Chris/code/chris/resources/views/admin/edit.blade.php",
+		"/Users/Chris/code/chris/resources/views/reviews/reviews.blade.php",
+		"/Users/Chris/code/chris/app/Http/Requests/CouponRequest.php",
+		"/Users/Chris/code/chris/resources/views/About/aboutindex.blade.php",
+		"/Users/Chris/code/chris/resources/assets/js/components/ReviewForm.vue",
+		"/Users/Chris/code/chris/resources/views/posts/show.blade.php",
+		"/Users/Chris/code/chris/database/migrations/2018_07_07_042250_create_products_table.php",
+		"/Users/Chris/code/chris/database/migrations/2018_06_19_192435_create_post_reviews_table.php",
+		"/Users/Chris/code/chris/app/Services/File.php",
+		"/Users/Chris/code/chris/app/Http/Controllers/ProductsController.php",
+		"/Users/Chris/code/chris/resources/assets/js/app.js",
+		"/Users/Chris/code/chris/resources/views/posts/post.blade.php",
+		"/Users/Chris/code/chris/resources/views/layouts/master.blade.php",
+		"/Users/Chris/code/chris/resources/assets/js/vue.js",
+		"/Users/Chris/code/chris/resources/views/posts/create.blade.php",
+		"/Users/Chris/code/chris/resources/views/layouts/main.blade.php",
+		"/Users/Chris/code/chris/resources/views/layouts/footer.blade.php",
+		"/Users/Chris/code/chris/app/Http/Controllers/AboutController.php",
+		"/Users/Chris/code/chris/resources/views/Products/products.blade.php",
+		"/Users/Chris/code/chris/resources/views/Products/productshow.blade.php",
+		"/Users/Chris/code/chris/app/Http/Controllers/ProductReviewsController.php",
+		"/Users/Chris/code/chris/database/migrations/2018_07_06_214915_create_coupons_table.php",
+		"/Users/Chris/code/chris/app/Http/Controllers/Auth/RegisterController.php",
+		"/Users/Chris/code/chris/app/Http/Controllers/Auth/LoginController.php",
+		"/Users/Chris/code/chris/app/Http/Requests/ProductRequest.php",
+		"/Users/Chris/code/chris/resources/assets/js/components/ProductReviewForm.vue",
+		"/Users/Chris/code/chris/app/Product.php",
+		"/Users/Chris/code/chris/app/ProductReview.php",
+		"/Users/Chris/code/chris/app/User.php",
+		"/Users/Chris/code/chris/resources/views/Products/productindex.blade.php",
+		"/Users/Chris/code/chris/app/PostReview.php",
+		"/Users/Chris/code/chris/database/migrations/2018_07_07_232730_create_product_reviews_table.php",
+		"/Users/Chris/code/chris/database/migrations/2018_05_29_041337_create_posts_table.php",
+		"/Users/Chris/code/chris/database/migrations/2018_06_04_184920_add_cover_image_to_posts.php",
+		"/Users/Chris/code/chris/app/Http/Requests/PostRequestUpdate.php",
+		"/Users/Chris/code/chris/resources/views/Products/productscreate.blade.php",
+		"/Users/Chris/code/chris/app/Coupon.php",
+		"/Users/Chris/code/chris/app/Http/Requests/PostRequest.php",
+		"/Users/Chris/code/chris/resources/views/posts/producttab.blade.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 164.0,
+		"where_history":
+		[
+			"/Users/Chris/code/chris/resources/views/layouts",
+			"/Users/Chris/code/users"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<div>\n                   <a href=\"#modal-close\" title=\"Close\"><button class=\"register-button-main\">\n                        Cancel\n                    </button></a>\n\t\t\t    </div>",
+			"textarea",
+			"avatar",
+			"\" ",
+			"file",
+			"()",
+			"file",
+			"File",
+			"file",
+			"())\n",
+			"cssnano",
+			"Optimize",
+			"OptimizeCssAssetsPlugin",
+			"posts",
+			"postreview",
+			"body",
+			"postLogin",
+			"active",
+			"header"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Http/Controllers/EventsController.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4888,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								120
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 202.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 72.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 186.0
+	},
+	"pinned_build_system": "",
+	"project": "old-showbelow.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
+				"defacon",
+				"vendor/psy/psysh/test/fixtures/default/.config/psysh/config.php"
+			],
+			[
+				"authsr",
+				"app/Providers/AuthServiceProvider.php"
+			],
+			[
+				"authse",
+				"app/Providers/AuthServiceProvider.php"
+			],
+			[
+				"mail",
+				"config/mail.php"
+			],
+			[
+				"auths",
+				"app/Providers/AuthServiceProvider.php"
+			],
+			[
+				"authser",
+				"app/Providers/AuthServiceProvider.php"
+			],
+			[
+				"route",
+				"vendor/symfony/routing/Route.php"
+			],
+			[
+				"migrationuser",
+				"database/migrations/2014_10_12_000000_create_users_table.php"
+			],
+			[
+				"edit",
+				"resources/views/posts/edit.blade.php"
+			],
+			[
+				"lfooter",
+				"resources/views/layouts/footer.blade.php"
+			],
+			[
+				"create.bla",
+				"resources/views/posts/create.blade.php"
+			],
+			[
+				"creat",
+				"node_modules/lodash/create.js"
+			],
+			[
+				"master",
+				"resources/views/layouts/master.blade.php"
+			],
+			[
+				"footer",
+				"resources/views/layouts/footer.blade.php"
+			],
+			[
+				"",
+				"app/Http/Controllers/PostsController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 335.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
